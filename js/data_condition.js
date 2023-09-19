@@ -1,200 +1,200 @@
 data_condition = [
     {
-        title: "Blinded",
+        title: "Cego",
         icon: "one-eyed",
-        subtitle: "You can't see",
-        description: "You can't see",
+        subtitle: "Você não consegue enxergar",
+        description: "Você não consegue enxergar",
         reference: "PHB, pg. 290.",
         bullets: [
-            "You automatically fail any ability check which requires sight.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage."
+            "Você falha automaticamente em qualquer teste de habilidade que exija visão.",
+            "Você tem desvantagem nas jogadas de ataque.",
+            "As jogadas de ataque contra você têm vantagem."
         ]
     },
     {
-        title: "Charmed",
+        title: "Encantado",
         icon: "smitten",
-        subtitle: "You are charmed",
-        description: "You are charmed by another creature",
+        subtitle: "Você está encantado",
+        description: "Você está encantado por outra criatura",
         reference: "PHB, pg. 290.",
         bullets: [
-            "You can't attack your charmer or target them with harmful abilities or magical effects.",
-            "Your charmer has advantage on ability checks to interact socially with you."
+            "Você não pode atacar seu encantador ou atingi-lo com habilidades prejudiciais ou efeitos mágicos.",
+            "Seu encantador tem vantagem em testes de habilidade para interagir socialmente com você."
         ]
     },
     {
-        title: "Deafened",
+        title: "Surdo",
         icon: "elf-ear",
-        subtitle: "You can't hear",
-        description: "You can't hear",
+        subtitle: "Você não pode ouvir",
+        description: "Você não pode ouvir",
         reference: "PHB, pg. 290.",
         bullets: [
-            "You automatically fail any ability check which requires hearing."
+            "Você falha automaticamente em qualquer teste de habilidade que exija audição."
         ]
     },
     {
-        title: "Exhaustion",
+        title: "Exaustão",
         icon: "crawl",
-        subtitle: "You are exhausted",
-        description: "Exhaustion is measured in six levels",
+        subtitle: "Você está exausto",
+        description: "A exaustão é medida em seis níveis",
         reference: "PHB, pg. 291.",
         bullets: [
-            "<table><tr><th>Level</th><th></th><th></th><th style='text-align:left'>Effect</th></tr><tr><td>1</td><td></td><td></td><td>Disadvantage on ability checks</td></tr><tr><td>2</td><td></td><td></td><td>Speed halved</td></tr><tr><td>3</td><td></td><td></td><td>Disadvantage on attack rolls and saving throws</td></tr><tr><td>4</td><td></td><td></td><td>Hit point maximum halved</td></tr><tr><td>5</td><td></td><td></td><td>Speed reduced to 0</td></tr><tr><td>6</td><td></td><td></td><td>Death</td></tr></table>",
-            "You suffer the effect of your current level of exhaustion as well as all lower levels.",
-            "Finishing a long rest reduces your exhaustion level by 1, provided that you have also had some food and drink.",
-            "Also, being raised from the dead reduces a creature’s exhaustion level by 1."
+            "<table><tr><th>Nível</th><th></th><th></th><th style='text-align:left'>Efeito</th></tr><tr><td>1</td><td></td><td></td><td>Desvantagem em testes de habilidade</td></tr><tr><td>2</td><td></td><td></td><td>Velocidade reduzida pela metade</td></tr><tr><td>3</td><td></td><td></td><td>Desvantagem em jogadas de ataque e testes de resistência</td></tr><tr><td>4</td><td></td><td></td><td>Máximo de pontos de vida reduzido pela metade</td></tr><tr><td>5</td><td></td><td></td><td>Velocidade reduzida para 0</td></tr><tr><td>6</td><td></td><td></td><td>Morte</td></tr></table>",
+            "Você sofre o efeito do seu nível atual de exaustão, bem como de todos os níveis inferiores.",
+            "Terminar um descanso longo reduz seu nível de exaustão em 1, desde que você também tenha comido e bebido.",
+            "Além disso, ser ressuscitado dentre os mortos reduz o nível de exaustão de uma criatura em 1."
         ]
     },
     {
-        title: "Frightened",
+        title: "Amedrontado",
         icon: "sharp-smile",
-        subtitle: "You are frightened",
-        description: "You are frightened",
+        subtitle: "Você está amedrontado",
+        description: "Você está amedrontado",
         reference: "PHB, pg. 290.",
         bullets: [
-            "You have disadvantage on ability checks and attack rolls while the source of your fear is within line of sight.",
-            "You can't willingly move closer to the source of your fear."
+            "Você tem desvantagem em testes de habilidade e jogadas de ataque enquanto a fonte do seu medo estiver dentro do seu campo de visão.",
+            "Você não pode se aproximar voluntariamente da fonte do seu medo."
         ]
     },
     {
-        title: "Grappled",
+        title: "Agarrado",
         icon: "grab",
-        subtitle: "You are grappled",
-        description: "You are grappled",
+        subtitle: "Você está agarrado",
+        description: "Você está agarrado",
         reference: "PHB, pg. 290.",
         bullets: [
-            "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
-            "The condition ends if your grappler is incapacitated.",
-            "The condition also ends if you are removed from the reach of your grappler."
+            "Sua velocidade se torna 0 e você não pode se beneficiar de nenhum bônus em sua velocidade.",
+            "A condição termina se o agarrador estiver incapacitado.",
+            "A condição também termina se você for removido do alcance do agarrador."
         ]
     },
     {
-        title: "Incapacitated",
+        title: "Incapacitado",
         icon: "internal-injury",
-        subtitle: "You can't take actions or reactions",
-        description: "You can't take actions or reactions",
+        subtitle: "Você não pode realizar ações ou reações",
+        description: "Você não pode realizar ações ou reações",
         reference: "PHB, pg. 290.",
         bullets: [
         ]
     },
     {
-        title: "Invisible",
+        title: "Invisível",
         icon: "invisible",
-        subtitle: "You can't be seen",
-        description: "You can't be seen without the aid of magic or a special sense",
+        subtitle: "Você mão pode ser visto",
+        description: "Você não pode ser visto sem a ajuda da magia ou de um sentido especial",
         reference: "PHB, pg. 291.",
         bullets: [
-            "For the purpose of hiding, you are heavily obscured.",
-            "You can still be detected by any noise you make or tracks you leave.",
-            "You have advantage on attack rolls.",
-            "Attack rolls against you have disadvantage."
+            "Com o propósito de se esconder, você está fortemente obscurecido.",
+            "Você ainda pode ser detectado por qualquer ruído que fizer ou rastros que deixar.",
+            "Você tem vantagem nas jogadas de ataque.",
+            "As jogadas de ataque contra você têm desvantagem."
         ]
     },
     {
-        title: "Paralyzed",
+        title: "Paralisado",
         icon: "internal-injury",
-        subtitle: "You are paralyzed",
-        description: "You can't do anything",
+        subtitle: "Você está paralisado",
+        description: "Você não pode fazer nada",
         bullets: [
-            "You are incapacitated and can't move or speak.",
-            "Attack rolls against you have advantage.",
-            "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
-            "You automatically fail Strength and Dexterity saving throws."
+            "Você está incapacitado e não consegue se mover ou falar.",
+            "As jogadas de ataque contra você têm vantagem.",
+            "Qualquer ataque que atinja você será um acerto crítico se o atacante estiver a até 1,5 metro de você.",
+            "Você falha automaticamente nos testes de resistência de Força e Destreza."
         ]
     },
     {
-        title: "Petrified",
+        title: "Petrificado",
         icon: "stone-pile",
-        subtitle: "You are transformed into stone",
-        description: "You are transformed, along with any nonmagical objects you are wearing or carrying, into a solid inanimate substance (usually stone)",
+        subtitle: "Você se transforma em pedra",
+        description: "Você é transformado, junto com quaisquer objetos não mágicos que esteja vestindo ou carregando, em uma substância sólida inanimada (geralmente pedra).",
         reference: "PHB, pg. 291.",
         bullets: [
-            "Your weight increases by a factor of ten, and you cease aging.",
-            "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
+            "Seu peso aumenta dez vezes e você para de envelhecer.",
+            "Você está incapacitado, não consegue se mover ou falar e não tem consciência do que está ao seu redor.",
             "Attack rolls against you have advantage.",
-            "You automatically fail Strength and Dexterity saving throws.",
-            "You have resistance to all damage.",
-            "You are immune to poison and disease, though a poison or disease already in your system is only suspended, not neutralized."
+            "Você falha automaticamente nos testes de resistência de Força e Destreza.",
+            "Você tem resistência a todos os danos.",
+            "Você é imune a venenos e doenças, embora um veneno ou doença já presente em seu sistema seja apenas suspenso, não neutralizado."
         ]
     },
     {
-        title: "Poisoned",
+        title: "Envenenado",
         icon: "deathcab",
-        subtitle: "You are poisoned",
-        description: "You are poisoned",
+        subtitle: "Você está envenenado",
+        description: "Você está envenenado",
         reference: "PHB, pg. 292.",
         bullets: [
-            "You have disadvantage on attack rolls and ability checks."
+            "Você tem desvantagem em jogadas de ataque e testes de habilidade."
         ]
     },
     {
-        title: "Prone",
+        title: "Caído",
         icon: "crawl",
-        subtitle: "You are prone",
-        description: "You are prone",
+        subtitle: "Você está caído",
+        description: "Você está caído",
         reference: "PHB, pg. 292.",
         bullets: [
-            "Your only movement option is to crawl, unless you stand up.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage if the attacker is within 5 feet of you, otherwise the attack roll has disadvantage."
+            "Sua única opção de movimento é engatinhar, a menos que você se levante.",
+            "Você tem desvantagem nas jogadas de ataque.",
+            "As jogadas de ataque contra você têm vantagem se o atacante estiver a até 1,5 metro de você, caso contrário, a jogada de ataque terá desvantagem."
         ]
     },
     {
-        title: "Restrained",
+        title: "Impedido",
         icon: "imprisoned",
-        subtitle: "You are restrained",
-        description: "You are restrained",
+        subtitle: "Você está impedido",
+        description: "Você está impedido",
         reference: "PHB, pg. 292.",
         bullets: [
-            "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage.",
-            "You have disadvantage on Dexterity saving throws."
+            "Sua velocidade se torna 0 e você não pode se beneficiar de nenhum bônus em sua velocidade.",
+            "Você tem desvantagem nas jogadas de ataque.",
+            "As jogadas de ataque contra você têm vantagem.",
+            "Você tem desvantagem nos testes de resistência de Destreza."
         ]
     },
     {
-        title: "Stunned",
+        title: "Atordoado",
         icon: "internal-injury",
-        subtitle: "You are stunned",
-        description: "You are stunned",
+        subtitle: "Você está atordoado",
+        description: "Você está atordoado",
         reference: "PHB, pg. 292.",
         bullets: [
-            "You are incapacitated, can't move, and can speak only falteringly.",
-            "Attack rolls against you have advantage.",
-            "You automatically fail Strength and Dexterity saving throws."
+            "Você está incapacitado, não consegue se mover e só consegue falar de maneira hesitante.",
+            "As jogadas de ataque contra você têm vantagem.",
+            "Você falha automaticamente nos testes de resistência de Força e Destreza."
         ]
     },
     {
-        title: "Unconscious",
+        title: "Inconsciente",
         icon: "coma",
-        subtitle: "You are unconscious",
-        description: "You are unconscious",
+        subtitle: "Você está inconsciente",
+        description: "Você está inconsciente",
         reference: "PHB, pg. 292.",
         bullets: [
-            "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
-            "You drop whatever you're holding and fall prone.",
-            "Attack rolls against you have advantage.",
-            "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
-            "You automatically fail Strength and Dexterity saving throws.",
+            "Você está incapacitado, não consegue se mover ou falar e não tem consciência do que está ao seu redor.",
+            "Você deixa cair tudo o que está segurando e cai no chão.",
+            "As jogadas de ataque contra você têm vantagem.",
+            "Qualquer ataque que atinja você será um acerto crítico se o atacante estiver a até 1,5 metro de você.",
+            "Você falha automaticamente nos testes de resistência de Força e Destreza.",
         ]
     },
     {
-        title: "Dying",
+        title: "Morrendo",
         icon: "dead-head",
-        subtitle: "You are dying",
-        description: "You have been dropped to zero hit points and are dying",
+        subtitle: "Você está morrendo",
+        description: "Você caiu para zero pontos de vida e está morrendo",
         reference: "PHB, pg. 197.",
         bullets: [
-            "If you are reduced to 0 hit points by damage that fails to kill you, you fall unconscious and are dying.",
-            "If you receive any healing you immediately regain consciousness again and no longer dying.",
-            "When dying, at the start of each of your turns you make a death saving throw. Roll a d20 and do not add any modifiers.",
-            "A 10 or higher is a success, 9 or lower is a failure.",
-            "On your third success, you become stable.",
-            "On your third failure, you die.",
-            "Rolling a 1 counts as two failures.",
-            "Rolling a 20 immediately causes you to regain 1 hit point.",
-            "You can also be stabilized by an ally taking the Stabilize action and succeeding on a DC 10 Wisdom (Medicine) check.",
-            "Once stable, you regain 1 hit point after 1d4 hours."
+            "Se você for reduzido a 0 pontos de vida por dano que não consiga matá-lo, você ficará inconsciente e morrerá.",
+            "Se você receber alguma cura, você imediatamente recupera a consciência e não morre mais.",
+            "Ao morrer, no início de cada um de seus turnos você faz um teste de resistência à morte. Role um d20 e não adicione nenhum modificador.",
+            "Um 10 ou mais é um sucesso, 9 ou menos é um fracasso.",
+            "No seu terceiro sucesso, você se torna estável.",
+            "Na sua terceira falha, você morre.",
+            "Rolar 1 conta como duas falhas.",
+            "Rolar um 20 imediatamente faz com que você recupere 1 ponto de vida.",
+            "Você também pode ser estabilizado por um aliado realizando a ação Estabilizar e obtendo sucesso em um teste de Sabedoria (Medicina) CD 10.",
+            "Uma vez estável, você recupera 1 ponto de vida após 1d4 horas."
         ]
     }
 ]
