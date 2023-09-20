@@ -1,132 +1,132 @@
 data_environment_obscurance = [
     {
-        title: "Lightly obscured",
+        title: "Levemente obscurecido",
         icon: "bleeding-eye",
-        subtitle: "Disadvantage on Perception",
-        description: "Dim light, patchy fog, moderate foliage",
+        subtitle: "Desvantagem na percepção",
+        description: "Luz fraca, neblina irregular, folhagem moderada",
         reference: "PHB, pg. 183.",
         bullets: [
-            "Creatures have <b>disadvantage on Wisdom (Perception)</b> checks that rely on sight."
+            "As criaturas têm <b>desvantagem em testes de Sabedoria (Percepção)</b> que dependem da visão."
         ]
     },
     {
-        title: "Heavily obscured",
+        title: "Fortemente obscurecido",
         icon: "lightning-tear",
-        subtitle: "Effectively blind",
-        description: "Darkness, opaque fog, dense foliage",
+        subtitle: "Efetivamente cego",
+        description: "Escuridão, neblina opaca, folhagem densa",
         reference: "PHB, pg. 183.",
         bullets: [
-            "A creature in a heavily obscured area effectively suffers from the <b>blinded condition</b>."
+            "Uma criatura em uma área fortemente obscurecida sofre efetivamente da <b>condição cega</b>."
         ]
     }
 ]
 
 data_environment_light = [
     {
-        title: "Bright light",
+        title: "Luz brilhante",
         icon: "star-pupil",
-        subtitle: "Normal vision",
-        description: "Bright light lets most creatures see normally",
+        subtitle: "Visão normal",
+        description: "A luz brilhante permite que a maioria das criaturas veja normalmente",
         reference: "PHB, pg. 183.",
         bullets: [
-            "Gloomy days still provide bright light, as do torches, lanterns, fires, and other sources of illumination within a specific radius."
+            "Os dias sombrios ainda fornecem luz brilhante, assim como tochas, lanternas, fogueiras e outras fontes de iluminação dentro de um raio específico."
         ]
     },
     {
-        title: "Dim light",
+        title: "Luz fraca",
         icon: "semi-closed-eye",
-        subtitle: "Lightly obscured",
-        description: "Dim light, also called shadows",
+        subtitle: "Levemente obscurecido",
+        description: "Luz fraca, também chamada de sombras",
         reference: "PHB, pg. 183.",
         bullets: [
-            "Creates a <b>lightly obscured</b> area.",
-            "An area of dim light is usually a boundary between a source of bright light, such as a torch, and surrounding darkness.",
-            "The soft light of twilight and dawn also counts as dim light. A particularly brilliant full moon might bathe the land in dim light."
+            "Cria uma área <b>ligeiramente obscurecida</b>.",
+            "Uma área de pouca luz geralmente é um limite entre uma fonte de luz brilhante, como uma tocha, e a escuridão circundante.",
+            "A luz suave do crepúsculo e do amanhecer também conta como luz fraca. Uma lua cheia particularmente brilhante pode banhar a terra com pouca luz."
         ]
     },
     {
-        title: "Darkness",
+        title: "Escuridão",
         icon: "worried-eyes",
-        subtitle: "Heavily obscured",
-        description: "Darkness creates a heavily obscured area",
+        subtitle: "Fortemente obscurecido",
+        description: "A escuridão cria uma área fortemente obscurecida",
         reference: "PHB, pg. 183.",
         bullets: [
-            "Creates a <b>heavily obscured</b> area.",
-            "Characters face darkness outdoors at night (even most moonlit nights), within the confines of an unlit dungeon or a subterranean vault, or in an area of magical darkness."
+            "Cria uma área <b>fortemente obscurecida</b>.",
+            "Os personagens enfrentam a escuridão ao ar livre à noite (mesmo na maioria das noites de luar), dentro dos limites de uma masmorra apagada ou de um cofre subterrâneo, ou em uma área de escuridão mágica."
         ]
     }
 ]
 
 data_environment_vision = [
     {
-        title: "Blindsight",
+        title: "Visão cega",
         icon: "one-eyed",
-        subtitle: "Perceive without sight",
-        description: "Perceive your surroundings without relying on sight, within a certain radius",
+        subtitle: "Perceba sem visão",
+        description: "Perceba o que está ao seu redor sem depender da visão, dentro de um determinado raio",
         reference: "PHB, pg. 183.",
         bullets: [
-            "Creatures without eyes, such as oozes, and creatures with echolocation or heightened senses, such as bats and true dragons, have this sense."
+            "Criaturas sem olhos, como limos, e criaturas com ecolocalização ou sentidos aguçados, como morcegos e dragões verdadeiros, possuem esse sentido."
         ]
     },
     {
-        title: "Darkvision",
+        title: "Visão no escuro",
         icon: "semi-closed-eye",
-        subtitle: "Limited vision in darkness",
-        description: "A creature with Darkvision can see better in the dark or low light conditions, within a certain radius",
+        subtitle: "Visão limitada na escuridão",
+        description: "Uma criatura com Visão no Escuro pode enxergar melhor no escuro ou em condições de pouca luz, dentro de um determinado raio",
         reference: "PHB, pgs. 183-184.",
         bullets: [
-            "Within a specified range, a creature with darkvision can <b>see in darkness as if the darkness were dim light</b>, so areas of darkness are only lightly obscured as far as that creature is concerned.",
-            "However, the creature can’t discern color in darkness, only shades of gray.",
-            "Many creatures in the worlds of D&D, especially those that dwell underground, have darkvision."
+            "Dentro de um alcance especificado, uma criatura com visão no escuro pode <b>ver na escuridão como se a escuridão fosse luz fraca</b>, então áreas de escuridão são apenas levemente obscurecidas no que diz respeito àquela criatura.",
+            "No entanto, a criatura não consegue discernir cores na escuridão, apenas tons de cinza.",
+            "Muitas criaturas nos mundos de D&D, especialmente aquelas que vivem no subsolo, têm visão no escuro."
         ]
     },
     {
-        title: "Truesight",
+        title: "Visão Verdadeira",
         icon: "eye-shield",
-        subtitle: "See in darkness",
-        description: "A creature with truesight can see everything in its true form, independent of the environment",
+        subtitle: "Veja na escuridão",
+        description: "Uma criatura com visão verdadeira pode ver tudo em sua verdadeira forma, independente do ambiente",
         reference: "PHB, pg. 184.",
         bullets: [
-            "A creature with truesight can, out to a specific range, see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceives the original form of a shapechanger or a creature that is transformed by magic.",
-            "Furthermore, the creature can see into the Ethereal Plane."
+            "Uma criatura com visão verdadeira pode, até um alcance específico, ver na escuridão normal e mágica, ver criaturas e objetos invisíveis, detectar automaticamente ilusões visuais e ter sucesso em testes de resistência contra elas, e perceber a forma original de um metamorfo ou de uma criatura que seja transformado por magia.",
+            "Além disso, a criatura pode ver o Plano Etéreo."
         ]
     }
 ]
 
 data_environment_cover = [
     {
-        title: "Half cover",
+        title: "Meia cobertura",
         icon: "broken-shield",
-        subtitle: "Low wall, furniture, creatures",
-        description: "A target has half cover if an obstacle blocks at least half of its body",
+        subtitle: "Parede baixa, móveis, criaturas",
+        description: "Um alvo tem meia cobertura se um obstáculo bloquear pelo menos metade de seu corpo",
         reference: "PHB, pg. 196.",
         bullets: [
-            "The obstacle might be a low wall, a large piece of furniture, a narrow tree trunk, or a creature, whether that creature is an enemy or a friend.",
-            "A target with half cover has a <b>+2 bonus to AC and Dexterity saving throws</b>.",
-            " If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "O obstáculo pode ser um muro baixo, um móvel grande, um tronco estreito de árvore ou uma criatura, seja essa criatura um inimigo ou um amigo.",
+            "Um alvo com meia cobertura tem um bônus de <b>+2 em testes de resistência de CA e Destreza</b>.",
+            "Se um alvo estiver atrás de múltiplas fontes de cobertura, apenas o grau de cobertura mais protetor se aplica"
         ]
     },
     {
-        title: "Three-quarters cover",
+        title: "Três quartos de cobertura",
         icon: "cracked-shield",
-        subtitle: "Portcullis, arrow slit",
-        description: "A target has three-quarters cover if about three-quarters of it is covered by an obstacle",
+        subtitle: "Grades, muro esburacado",
+        description: "Um alvo tem três quartos de cobertura se cerca de três quartos dele estiver coberto por um obstáculo",
         reference: "PHB, pg. 196.",
         bullets: [
-            "The obstacle might be a portcullis, an arrow slit, or a thick tree trunk.",
-            "A target with three-quarters cover has a <b>+5 bonus to AC and Dexterity saving throws</b>.",
-            " If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "O obstáculo pode ser uma ponte levadiça, uma seteira ou um tronco grosso de árvore.",
+            "Um alvo com três quartos de cobertura tem um bônus de <b>+5 em testes de resistência de CA e Destreza</b>.",
+            "Se um alvo estiver atrás de múltiplas fontes de cobertura, apenas o grau de cobertura mais protetor se aplica"
         ]
     },
     {
-        title: "Full cover",
+        title: "Cobertura completa",
         icon: "shield",
-        subtitle: "Completely concealed",
-        description: "A target has total cover if it is completely concealed by an obstacle",
+        subtitle: "Completamente escondido",
+        description: "Um alvo tem cobertura total se estiver completamente oculto por um obstáculo",
         reference: "PHB, pg. 196.",
         bullets: [
-            "A target with total cover <b>can’t be targeted directly</b> by an attack or a spell, although some spells can reach such a target by including it in an area of effect.",
-            "If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "Um alvo com cobertura total <b>não pode ser alvo diretamente</b> de um ataque ou feitiço, embora alguns feitiços possam atingir tal alvo incluindo-o em uma área de efeito.",
+            "Se um alvo estiver atrás de múltiplas fontes de cobertura, apenas o grau de cobertura mais protetor se aplica"
         ]
     }
 ]
