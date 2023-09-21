@@ -3,34 +3,34 @@ data_reaction = [
         title: "Ataque de Oportunidade",
         icon: "crossed-swords",
         subtitle: "Inimigo sair do seu alcance",
-        description: "You can rarely move heedlessly past your foes without putting yourself in danger",
+        description: "Você raramente consegue passar descuidadamente por seus inimigos sem se colocar em perigo",
         reference: "PHB, pg. 195.",
         bullets: [
-            "Trigger: enemy creature you can see leaves your reach.",
-            "Make one melee attack against the provoking creature.",
-            "The attack interrupts the provoking creature's movement, occurring right before the creature leaves your reach.",
-            "Creatures don't provoke an opportunity attack when they teleport or when someone or something moves them without using their movement, action, or reaction."
+            "Gatilho: a criatura inimiga que você pode ver sai do seu alcance.",
+            "Faça um ataque corpo a corpo contra a criatura provocadora.",
+            "O ataque interrompe o movimento da criatura provocadora, ocorrendo logo antes de a criatura sair do seu alcance.",
+            "As criaturas não provocam ataques de oportunidade quando se teletransportam ou quando alguém ou algo as move sem usar seu movimento, ação ou reação."
         ]
     },
     {
-        title: "Readied action",
+        title: "Ação preparada",
         icon: "stopwatch",
-        subtitle: "Part of your Ready action",
-        description: "Execute the reaction specified by your Ready action",
+        subtitle: "Parte da sua ação preparada",
+        description: "Execute a reação especificada pela sua ação preparada",
         reference: "PHB, pg. 193.",
         bullets: [
-            "Trigger: specified by your <i>Ready</i> action."
+            "Gatilho: especificado pela sua ação <i>preparada</i>."
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Lançar um feitiço",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 reaction",
-        description: "Cast a spell with a casting time of 1 reaction",
+        subtitle: "Tempo de lançamento de 1 reação",
+        description: "Lance um feitiço com tempo de lançamento de 1 reação",
         reference: "PHB, pg. 192.",
         bullets: [
-            "Trigger: specified by the spell.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "Gatilho: especificado pelo feitiço.",
+            "Para mais detalhes, veja a ação <i>Lançar um feitiço</i>."
         ]
     }
 ]
